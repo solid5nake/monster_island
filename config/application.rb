@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module MonsterIsland
   class Application < Rails::Application
+    
     console do
       ActiveRecord::Base.connection
     end
