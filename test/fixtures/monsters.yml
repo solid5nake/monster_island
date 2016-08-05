@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  age: 1
+  health: 1
   image_url: MyString
 
 two:
   name: MyString
-  age: 1
+  health: 1
   image_url: MyString

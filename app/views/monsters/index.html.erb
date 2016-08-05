@@ -1,0 +1,5 @@
+<h1>Monster Island</h1>
+
+<% @monsters.each do |monster| %>
+  <p><%= link_to monster.name, monster_path(monster.id) %></p>
+<% end %>
